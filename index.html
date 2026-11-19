@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS Dhoni - Mahi Bhai</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), 
+                        url('dhoni.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #ffd700;
+            text-shadow: 2px 2px 8px black;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+            color: #00ffcc;
+        }
+
+        p {
+            font-size: 1.15rem;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            background: rgba(255, 215, 0, 0.15);
+            padding: 15px 25px;
+            border-radius: 10px;
+            border: 1px solid #ffd700;
+        }
+
+        .stat span {
+            display: block;
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #ffd700;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MS Dhoni</h1>
+        <h2>Captain Cool | Mahendra Singh Dhoni</h2>
+        
+        <p>
+            Mahendra Singh Dhoni, popularly known as <strong>Mahi Bhai</strong>, is one of the greatest captains and finishers in the history of cricket.
+        </p>
+        
+        <p>
+            Under his leadership, India won the 2007 T20 World Cup, 2011 ODI World Cup, and 2013 Champions Trophy. 
+            He is the only captain to win all three major ICC trophies.
+        </p>
+
+        <div class="stats">
+            <div class="stat">
+                <span>2011</span>
+                World Cup Winner
+            </div>
+            <div class="stat">
+                <span>2007</span>
+                T20 World Cup
+            </div>
+            <div class="stat">
+                <span>2013</span>
+                Champions Trophy
+            </div>
+        </div>
+    </div>
+</body>
+</html>
